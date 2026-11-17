@@ -1,0 +1,29 @@
+# 비밀값 / 세션 (절대 커밋 금지)
+.env
+*.session
+*.session-journal
+
+# 로컬 DB / 수집 산출물 (개인 데이터 — 커밋 금지)
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+collect_log.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# OS / 에디터
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# 로컬 에이전트 상태
+.omc/
+data/
+session/

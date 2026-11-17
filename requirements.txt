@@ -1,0 +1,5 @@
+# 개인계정 톡방 수집은 MTProto user client 가 필요 (Bot API 아님)
+telethon>=1.36
+python-dotenv>=1.0
+pypdf>=4          # 첨부 PDF 텍스트 추출 (src/enrich.py, 2026-09-10) — pdf-inspector 폴백
+pdf-inspector>=1.20  # PDF → markdown (제목·불릿 구조 보존), 2026-09-16 src/enrich.py
